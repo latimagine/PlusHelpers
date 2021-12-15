@@ -1,0 +1,5 @@
+BUS!="usb", ACTION!="add", SUBSYSTEM!=="usb_device", GOTO="revopoint_logic_rules_end"
+
+ATTRS{idVendor}=="1d6b", ATTRS{idProduct}=="0103", MODE="0666", GROUP="plugdev"
+
+LABEL="revopoint_logic_rules_end"
